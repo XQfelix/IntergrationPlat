@@ -1,0 +1,18 @@
+server:
+  port: 9090
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    default-auto-commit: true
+    url: jdbc:mysql://192.168.1.186:3306/interface?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8
+    username: root
+    password: Dix@2019
+
+#  jpa:
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        format_sql: true
+

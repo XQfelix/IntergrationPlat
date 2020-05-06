@@ -1,0 +1,236 @@
+2020-05-05 11:37:22 [ INFO ]-[org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] HV000001: Hibernate Validator 6.0.18.Final
+2020-05-05 11:37:22 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)] Starting IntergrationApplication on Felix-Matebook with PID 15328 (D:\personProject\intergration\target\classes started by felix in D:\personProject\intergration)
+2020-05-05 11:37:22 [ INFO ]-[org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651)] No active profile set, falling back to default profiles: default
+2020-05-05 11:37:22 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-05 11:37:22 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)] Finished Spring Data repository scanning in 48ms. Found 3 JPA repository interfaces.
+2020-05-05 11:37:23 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)] Tomcat initialized with port(s): 9090 (http)
+2020-05-05 11:37:23 [ INFO ]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)] Root WebApplicationContext: initialization completed in 985 ms
+2020-05-05 11:37:23 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+2020-05-05 11:37:24 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+2020-05-05 11:37:24 [ INFO ]-[org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-05 11:37:24 [ INFO ]-[org.hibernate.Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-05 11:37:24 [ INFO ]-[org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49)] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-05 11:37:24 [ INFO ]-[org.hibernate.dialect.Dialect.<init>(Dialect.java:172)] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-05 11:37:24 [ INFO ]-[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-05 11:37:24 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-05 11:37:25 [ WARN ]-[org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:220)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-05 11:37:25 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181)] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-05 11:37:25 [ INFO ]-[org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:136)] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-05 11:37:25 [ ERROR ]-[org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40)] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2020-05-05 11:37:25 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218)] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-05 11:37:25 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:598)] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-05 11:37:25 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350)] HikariPool-1 - Shutdown initiated...
+2020-05-05 11:37:25 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352)] HikariPool-1 - Shutdown completed.
+2020-05-05 11:37:59 [ INFO ]-[org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] HV000001: Hibernate Validator 6.0.18.Final
+2020-05-05 11:37:59 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)] Starting IntergrationApplication on Felix-Matebook with PID 16460 (D:\personProject\intergration\target\classes started by felix in D:\personProject\intergration)
+2020-05-05 11:37:59 [ INFO ]-[org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651)] No active profile set, falling back to default profiles: default
+2020-05-05 11:37:59 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-05 11:37:59 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)] Finished Spring Data repository scanning in 53ms. Found 3 JPA repository interfaces.
+2020-05-05 11:38:00 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)] Tomcat initialized with port(s): 9090 (http)
+2020-05-05 11:38:00 [ INFO ]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)] Root WebApplicationContext: initialization completed in 1017 ms
+2020-05-05 11:38:00 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+2020-05-05 11:38:01 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+2020-05-05 11:38:01 [ INFO ]-[org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-05 11:38:01 [ INFO ]-[org.hibernate.Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-05 11:38:01 [ INFO ]-[org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49)] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-05 11:38:01 [ INFO ]-[org.hibernate.dialect.Dialect.<init>(Dialect.java:172)] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-05 11:38:01 [ INFO ]-[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-05 11:38:01 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-05 11:38:02 [ WARN ]-[org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:220)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-05 11:38:02 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181)] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-05 11:38:02 [ INFO ]-[org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:136)] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-05 11:38:02 [ ERROR ]-[org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40)] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2020-05-05 11:38:02 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218)] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-05 11:38:02 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:598)] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-05 11:38:02 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350)] HikariPool-1 - Shutdown initiated...
+2020-05-05 11:38:02 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352)] HikariPool-1 - Shutdown completed.
+2020-05-05 11:38:27 [ INFO ]-[org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] HV000001: Hibernate Validator 6.0.18.Final
+2020-05-05 11:38:27 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)] Starting IntergrationApplication on Felix-Matebook with PID 2056 (D:\personProject\intergration\target\classes started by felix in D:\personProject\intergration)
+2020-05-05 11:38:27 [ INFO ]-[org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651)] No active profile set, falling back to default profiles: default
+2020-05-05 11:38:28 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-05 11:38:28 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)] Finished Spring Data repository scanning in 51ms. Found 3 JPA repository interfaces.
+2020-05-05 11:38:28 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)] Tomcat initialized with port(s): 9090 (http)
+2020-05-05 11:38:28 [ INFO ]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)] Root WebApplicationContext: initialization completed in 1050 ms
+2020-05-05 11:38:28 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+2020-05-05 11:38:29 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+2020-05-05 11:38:29 [ INFO ]-[org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-05 11:38:29 [ INFO ]-[org.hibernate.Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-05 11:38:29 [ INFO ]-[org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49)] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-05 11:38:29 [ INFO ]-[org.hibernate.dialect.Dialect.<init>(Dialect.java:172)] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-05 11:38:30 [ INFO ]-[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-05 11:38:30 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-05 11:38:30 [ WARN ]-[org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:220)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-05 11:38:30 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181)] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-05 11:38:30 [ INFO ]-[org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:136)] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-05 11:38:30 [ ERROR ]-[org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40)] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2020-05-05 11:38:30 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218)] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-05 11:38:30 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:598)] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-05 11:38:30 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350)] HikariPool-1 - Shutdown initiated...
+2020-05-05 11:38:30 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352)] HikariPool-1 - Shutdown completed.
+2020-05-05 11:39:22 [ INFO ]-[org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] HV000001: Hibernate Validator 6.0.18.Final
+2020-05-05 11:39:22 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)] Starting IntergrationApplication on Felix-Matebook with PID 11536 (D:\personProject\intergration\target\classes started by felix in D:\personProject\intergration)
+2020-05-05 11:39:22 [ INFO ]-[org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651)] No active profile set, falling back to default profiles: default
+2020-05-05 11:39:23 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-05 11:39:23 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)] Finished Spring Data repository scanning in 51ms. Found 3 JPA repository interfaces.
+2020-05-05 11:39:23 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)] Tomcat initialized with port(s): 9090 (http)
+2020-05-05 11:39:23 [ INFO ]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)] Root WebApplicationContext: initialization completed in 1200 ms
+2020-05-05 11:39:24 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+2020-05-05 11:39:24 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+2020-05-05 11:39:24 [ INFO ]-[org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-05 11:39:24 [ INFO ]-[org.hibernate.Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-05 11:39:24 [ INFO ]-[org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49)] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-05 11:39:24 [ INFO ]-[org.hibernate.dialect.Dialect.<init>(Dialect.java:172)] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-05 11:39:25 [ INFO ]-[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-05 11:39:25 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-05 11:39:25 [ WARN ]-[org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:220)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-05 11:39:25 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181)] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-05 11:39:25 [ INFO ]-[org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:136)] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-05 11:39:25 [ ERROR ]-[org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter.report(LoggingFailureAnalysisReporter.java:40)] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2020-05-05 11:39:25 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218)] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-05 11:39:25 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:598)] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-05 11:39:25 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350)] HikariPool-1 - Shutdown initiated...
+2020-05-05 11:39:25 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352)] HikariPool-1 - Shutdown completed.
+2020-05-05 11:44:10 [ INFO ]-[org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] HV000001: Hibernate Validator 6.0.18.Final
+2020-05-05 11:44:10 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)] Starting IntergrationApplication on Felix-Matebook with PID 16592 (D:\personProject\intergration\target\classes started by felix in D:\personProject\intergration)
+2020-05-05 11:44:10 [ INFO ]-[org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651)] No active profile set, falling back to default profiles: default
+2020-05-05 11:44:10 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-05 11:44:10 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)] Finished Spring Data repository scanning in 54ms. Found 3 JPA repository interfaces.
+2020-05-05 11:44:11 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)] Tomcat initialized with port(s): 9090 (http)
+2020-05-05 11:44:11 [ INFO ]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)] Root WebApplicationContext: initialization completed in 1022 ms
+2020-05-05 11:44:11 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+2020-05-05 11:44:12 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+2020-05-05 11:44:12 [ INFO ]-[org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-05 11:44:12 [ INFO ]-[org.hibernate.Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-05 11:44:12 [ INFO ]-[org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49)] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-05 11:44:12 [ INFO ]-[org.hibernate.dialect.Dialect.<init>(Dialect.java:172)] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-05 11:44:12 [ INFO ]-[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-05 11:44:12 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-05 11:44:13 [ WARN ]-[org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:220)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-05 11:44:13 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181)] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-05 11:44:13 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] Tomcat started on port(s): 9090 (http) with context path ''
+2020-05-05 11:44:13 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)] Started IntergrationApplication in 3.312 seconds (JVM running for 3.965)
+2020-05-05 11:45:06 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)] Initializing Servlet 'dispatcherServlet'
+2020-05-05 11:45:06 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)] Completed initialization in 7 ms
+2020-05-05 11:45:42 [ INFO ]-[org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] HV000001: Hibernate Validator 6.0.18.Final
+2020-05-05 11:45:42 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)] Starting IntergrationApplication on Felix-Matebook with PID 16692 (D:\personProject\intergration\target\classes started by felix in D:\personProject\intergration)
+2020-05-05 11:45:42 [ INFO ]-[org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651)] No active profile set, falling back to default profiles: default
+2020-05-05 11:45:43 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-05 11:45:43 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)] Finished Spring Data repository scanning in 50ms. Found 3 JPA repository interfaces.
+2020-05-05 11:45:43 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)] Tomcat initialized with port(s): 9090 (http)
+2020-05-05 11:45:43 [ INFO ]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)] Root WebApplicationContext: initialization completed in 999 ms
+2020-05-05 11:45:43 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+2020-05-05 11:45:44 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+2020-05-05 11:45:44 [ INFO ]-[org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-05 11:45:44 [ INFO ]-[org.hibernate.Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-05 11:45:44 [ INFO ]-[org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49)] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-05 11:45:44 [ INFO ]-[org.hibernate.dialect.Dialect.<init>(Dialect.java:172)] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-05 11:45:45 [ INFO ]-[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-05 11:45:45 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-05 11:45:45 [ WARN ]-[org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:220)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-05 11:45:45 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181)] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-05 11:45:45 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] Tomcat started on port(s): 9090 (http) with context path ''
+2020-05-05 11:45:45 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)] Started IntergrationApplication in 3.242 seconds (JVM running for 3.888)
+2020-05-05 11:45:54 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)] Initializing Servlet 'dispatcherServlet'
+2020-05-05 11:45:54 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)] Completed initialization in 7 ms
+2020-05-05 15:02:14 [ INFO ]-[org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] HV000001: Hibernate Validator 6.0.18.Final
+2020-05-05 15:02:14 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)] Starting IntergrationApplication on Felix-Matebook with PID 5276 (D:\personProject\intergration\target\classes started by felix in D:\personProject\intergration)
+2020-05-05 15:02:14 [ INFO ]-[org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651)] No active profile set, falling back to default profiles: default
+2020-05-05 15:02:15 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-05 15:02:15 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)] Finished Spring Data repository scanning in 69ms. Found 3 JPA repository interfaces.
+2020-05-05 15:02:15 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)] Tomcat initialized with port(s): 9090 (http)
+2020-05-05 15:02:15 [ INFO ]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)] Root WebApplicationContext: initialization completed in 1301 ms
+2020-05-05 15:02:16 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+2020-05-05 15:02:17 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+2020-05-05 15:02:17 [ INFO ]-[org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-05 15:02:17 [ INFO ]-[org.hibernate.Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-05 15:02:17 [ INFO ]-[org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49)] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-05 15:02:17 [ INFO ]-[org.hibernate.dialect.Dialect.<init>(Dialect.java:172)] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-05 15:02:18 [ INFO ]-[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-05 15:02:18 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-05 15:02:18 [ WARN ]-[org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:220)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-05 15:02:18 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181)] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-05 15:02:18 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] Tomcat started on port(s): 9090 (http) with context path ''
+2020-05-05 15:02:18 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)] Started IntergrationApplication in 4.57 seconds (JVM running for 5.699)
+2020-05-05 15:02:36 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)] Initializing Servlet 'dispatcherServlet'
+2020-05-05 15:02:36 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)] Completed initialization in 11 ms
+2020-05-06 13:12:06 [ INFO ]-[org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] HV000001: Hibernate Validator 6.0.18.Final
+2020-05-06 13:12:06 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)] Starting IntergrationApplication on Felix-Matebook with PID 16448 (D:\personProject\intergration\target\classes started by felix in D:\personProject\intergration)
+2020-05-06 13:12:06 [ INFO ]-[org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651)] No active profile set, falling back to default profiles: default
+2020-05-06 13:12:07 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-06 13:12:07 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)] Finished Spring Data repository scanning in 71ms. Found 3 JPA repository interfaces.
+2020-05-06 13:12:07 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)] Tomcat initialized with port(s): 9090 (http)
+2020-05-06 13:12:07 [ INFO ]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)] Root WebApplicationContext: initialization completed in 1222 ms
+2020-05-06 13:12:07 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+2020-05-06 13:12:08 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+2020-05-06 13:12:08 [ INFO ]-[org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-06 13:12:08 [ INFO ]-[org.hibernate.Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-06 13:12:08 [ INFO ]-[org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49)] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-06 13:12:08 [ INFO ]-[org.hibernate.dialect.Dialect.<init>(Dialect.java:172)] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-06 13:12:09 [ INFO ]-[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-06 13:12:09 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-06 13:12:09 [ WARN ]-[org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:220)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-06 13:12:09 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181)] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-06 13:12:09 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] Tomcat started on port(s): 9090 (http) with context path ''
+2020-05-06 13:12:09 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)] Started IntergrationApplication in 3.804 seconds (JVM running for 4.683)
+2020-05-06 13:12:21 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)] Initializing Servlet 'dispatcherServlet'
+2020-05-06 13:12:21 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)] Completed initialization in 4 ms
