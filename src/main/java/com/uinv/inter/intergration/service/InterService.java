@@ -20,10 +20,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.persistence.criteria.Predicate;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -43,8 +40,8 @@ public class InterService {
     private InterTagDao interTagDao;
     @Autowired
     private InterImageDao interImageDao;
-//    private String filePath = "D:/";
-    private String filePath = System.getProperty("user.dir") + "/upload/";
+        private String filePath = "D:/";
+//    private String filePath = System.getProperty("user.dir") + "/upload/";
 
     public String uploadFile(String docId, String uid, MultipartFile file) throws Exception {
         if (file.isEmpty()) {
@@ -56,7 +53,7 @@ public class InterService {
         String filePH = filePath + docId + "_" + fileName;
         File image = new File(filePH);
         file.transferTo(image);
-        logger.info("upload image >>>, {}",filePath + docId + "_" + fileName);
+        logger.info("upload image >>>, {}", filePath + docId + "_" + fileName);
 
         InterImage interImage = interImageDao.findByInterId(docId);
         if (interImage == null) {
@@ -82,37 +79,35 @@ public class InterService {
         fileName = uid + fileName;
         File text = new File(filePath + docId + fileName);
         file.transferTo(text);
-        logger.info("upload text file >>>, {}",filePath + docId + fileName);
+        logger.info("upload text file >>>, {}", filePath + docId + fileName);
         String code = readFileContent(filePath + docId + fileName, null);
         if (text.exists()) {
             text.delete();
         }
-        if (code!=null) {
+        if (code != null) {
             return code;
-        }else {
+        } else {
             return "";
         }
     }
 
 
-
     public String removeImage(String interId, String uid, String fileName) throws Exception {
         fileName = fileName.substring(fileName.lastIndexOf("."));
         fileName = uid + fileName;
+        InterImage interImage = interImageDao.findByInterId(interId);
+        if (interImage != null) {
+            JSONArray images = JSON.parseArray(interImage.getInterImage());
+            images.remove(interId + "_" + fileName);
+            interImage.setInterImage(JSON.toJSONString(images));
+            interImageDao.saveAndFlush(interImage);
+        }
         File file = new File(filePath + interId + "_" + fileName);
         if (file.exists()) {
             file.delete();
-            logger.info("delete image >>>, {}",filePath + interId + "_" + fileName);
-            InterImage interImage = interImageDao.findByInterId(interId);
-            if (interImage != null) {
-                JSONArray images = JSON.parseArray(interImage.getInterImage());
-                images.remove(interId + "_" + fileName);
-                interImage.setInterImage(JSON.toJSONString(images));
-                interImageDao.saveAndFlush(interImage);
-                return "0";
-            }
+            logger.info("delete image >>>, {}", filePath + interId + "_" + fileName);
         }
-        return "1";
+        return "0";
     }
 
 
@@ -133,7 +128,7 @@ public class InterService {
         try {
             InterDoc interDoc = JSON.parseObject(param, InterDoc.class);
             interDao.saveAndFlush(interDoc);
-            logger.info("save interDoc id >>>, {}",interDoc.getInterId());
+            logger.info("save interDoc id >>>, {}", interDoc.getInterId());
             JSONArray tags = JSON.parseArray(interDoc.getInterTag());
             tags.forEach(tag -> {
                 interTagDao.save(new InterTag(tag.toString(), tag.toString()));
@@ -227,11 +222,11 @@ public class InterService {
             if (interImage != null) {
                 JSONArray interImageSec = new JSONArray();
                 JSONArray imagePath = JSON.parseArray(interImage.getInterImage());
-                imagePath.forEach(img ->{
+                imagePath.forEach(img -> {
                     JSONObject imgObj = new JSONObject();
                     imgObj.put("url", img);
                     String tmImg = img.toString();
-                    imgObj.put("uid", tmImg.substring(tmImg.lastIndexOf("_")+1, tmImg.lastIndexOf(".")));
+                    imgObj.put("uid", tmImg.substring(tmImg.lastIndexOf("_") + 1, tmImg.lastIndexOf(".")));
                     interImageSec.add(imgObj);
                 });
                 interDoc.setInterImage(JSON.toJSONString(interImageSec));
@@ -248,40 +243,41 @@ public class InterService {
 
     /**
      * 读取文件内容
+     *
      * @param filename
      * @param charset
      * @return
      */
-    public static String readFileContent(String filename, String charset){
+    public static String readFileContent(String filename, String charset) {
         if (charset == null || charset.length() < 1) {
             charset = "utf-8";
         }
-        InputStream fis=null;
-        try{
-            fis=new FileInputStream(new File(filename));
-            byte[] buff = new byte[1024*1024];
+        InputStream fis = null;
+        try {
+            fis = new FileInputStream(new File(filename));
+            byte[] buff = new byte[1024 * 1024];
             List<Byte> list = new ArrayList<Byte>();
-            while(true){
+            while (true) {
                 int index = fis.read(buff);
-                if(index>=0){
-                    for(int i=0;i<index;i++){
+                if (index >= 0) {
+                    for (int i = 0; i < index; i++) {
                         list.add(Byte.valueOf(buff[i]));
                     }
-                    buff = new byte[1024*1024];
-                }else{
+                    buff = new byte[1024 * 1024];
+                } else {
                     break;
                 }
             }
             byte[] buff_final = new byte[list.size()];
-            for(int i=0;i<list.size();i++){
+            for (int i = 0; i < list.size(); i++) {
                 buff_final[i] = list.get(i).byteValue();
             }
             return new String(buff_final, charset).trim();
-        }catch(Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             return null;
-        }finally{
-            if(fis!=null){
+        } finally {
+            if (fis != null) {
                 try {
                     fis.close();
                 } catch (IOException e) {
