@@ -234,3 +234,352 @@ Identify and stop the process that's listening on port 9090 or configure this ap
 2020-05-06 13:12:09 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)] Started IntergrationApplication in 3.804 seconds (JVM running for 4.683)
 2020-05-06 13:12:21 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)] Initializing Servlet 'dispatcherServlet'
 2020-05-06 13:12:21 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)] Completed initialization in 4 ms
+2020-05-06 14:00:15 [ INFO ]-[org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] HV000001: Hibernate Validator 6.0.18.Final
+2020-05-06 14:00:15 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)] Starting IntergrationApplication on Felix-Matebook with PID 13692 (D:\personProject\intergrationPlat\IntergrationPlat\target\classes started by felix in D:\personProject\intergrationPlat\IntergrationPlat)
+2020-05-06 14:00:15 [ INFO ]-[org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651)] No active profile set, falling back to default profiles: default
+2020-05-06 14:00:16 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-06 14:00:16 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)] Finished Spring Data repository scanning in 53ms. Found 3 JPA repository interfaces.
+2020-05-06 14:00:16 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)] Tomcat initialized with port(s): 9090 (http)
+2020-05-06 14:00:16 [ INFO ]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)] Root WebApplicationContext: initialization completed in 1051 ms
+2020-05-06 14:00:16 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+2020-05-06 14:00:17 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+2020-05-06 14:00:17 [ INFO ]-[org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-06 14:00:17 [ INFO ]-[org.hibernate.Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-06 14:00:17 [ INFO ]-[org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49)] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-06 14:00:17 [ INFO ]-[org.hibernate.dialect.Dialect.<init>(Dialect.java:172)] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-06 14:00:17 [ INFO ]-[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-06 14:00:17 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-06 14:00:18 [ WARN ]-[org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:220)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-06 14:00:18 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181)] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-06 14:00:18 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] Tomcat started on port(s): 9090 (http) with context path ''
+2020-05-06 14:00:18 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)] Started IntergrationApplication in 3.154 seconds (JVM running for 4.082)
+2020-05-06 15:56:52 [ INFO ]-[org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] HV000001: Hibernate Validator 6.0.18.Final
+2020-05-06 15:56:52 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)] Starting IntergrationApplication on Felix-Matebook with PID 16756 (D:\personProject\intergrationPlat\IntergrationPlat\target\classes started by felix in D:\personProject\intergrationPlat\IntergrationPlat)
+2020-05-06 15:56:52 [ INFO ]-[org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651)] No active profile set, falling back to default profiles: default
+2020-05-06 15:56:53 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-06 15:56:53 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)] Finished Spring Data repository scanning in 47ms. Found 3 JPA repository interfaces.
+2020-05-06 15:56:53 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)] Tomcat initialized with port(s): 9090 (http)
+2020-05-06 15:56:53 [ INFO ]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)] Root WebApplicationContext: initialization completed in 1079 ms
+2020-05-06 15:56:53 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+2020-05-06 15:56:54 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+2020-05-06 15:56:54 [ INFO ]-[org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-06 15:56:54 [ INFO ]-[org.hibernate.Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-06 15:56:54 [ INFO ]-[org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49)] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-06 15:56:54 [ INFO ]-[org.hibernate.dialect.Dialect.<init>(Dialect.java:172)] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-06 15:56:55 [ INFO ]-[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-06 15:56:55 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-06 15:56:55 [ WARN ]-[org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:220)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-06 15:56:55 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181)] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-06 15:56:55 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] Tomcat started on port(s): 9090 (http) with context path ''
+2020-05-06 15:56:55 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)] Started IntergrationApplication in 3.479 seconds (JVM running for 5.549)
+2020-05-06 15:57:44 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)] Initializing Servlet 'dispatcherServlet'
+2020-05-06 15:57:44 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)] Completed initialization in 6 ms
+2020-05-06 15:57:46 [ INFO ]-[com.uinv.inter.intergration.controller.Controller.queryDoc(Controller.java:102)] query tags >>>, []
+2020-05-06 15:58:43 [ WARN ]-[com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:779)] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s495ms950µs200ns).
+2020-05-06 15:58:43 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218)] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-06 15:58:43 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:598)] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-06 15:58:43 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350)] HikariPool-1 - Shutdown initiated...
+2020-05-06 15:58:43 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352)] HikariPool-1 - Shutdown completed.
+2020-05-06 15:58:43 [ WARN ]-[com.zaxxer.hikari.pool.ProxyConnection.checkException(ProxyConnection.java:157)] HikariPool-1 - Connection com.mysql.cj.jdbc.ConnectionImpl@10492a0f marked as broken because of SQLSTATE(08007), ErrorCode(0)
+java.sql.SQLNonTransientConnectionException: Communications link failure during rollback(). Transaction resolution unknown.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.ConnectionImpl.rollback(ConnectionImpl.java:1848)
+	at com.zaxxer.hikari.pool.ProxyConnection.rollback(ProxyConnection.java:375)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.rollback(HikariProxyConnection.java)
+	at org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor.rollback(AbstractLogicalConnectionImplementor.java:116)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.rollback(JdbcResourceLocalTransactionCoordinatorImpl.java:304)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.rollback(TransactionImpl.java:142)
+	at org.springframework.orm.jpa.JpaTransactionManager.doRollback(JpaTransactionManager.java:561)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:835)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.rollback(AbstractPlatformTransactionManager.java:809)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.completeTransactionAfterThrowing(TransactionAspectSupport.java:649)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:370)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy92.saveAndFlush(Unknown Source)
+	at com.uinv.inter.intergration.service.InterService.removeImage(InterService.java:106)
+	at com.uinv.inter.intergration.controller.Controller.removeImage(Controller.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-05-06 15:58:43 [ ERROR ]-[org.springframework.transaction.interceptor.TransactionAspectSupport.completeTransactionAfterThrowing(TransactionAspectSupport.java:657)] Application exception overridden by rollback exception
+java.lang.IllegalStateException: Session/EntityManager is closed
+	at org.hibernate.internal.AbstractSharedSessionContract.checkOpen(AbstractSharedSessionContract.java:375)
+	at org.hibernate.engine.spi.SharedSessionContractImplementor.checkOpen(SharedSessionContractImplementor.java:149)
+	at org.hibernate.internal.AbstractSharedSessionContract.checkOpenOrWaitingForAutoClose(AbstractSharedSessionContract.java:381)
+	at org.hibernate.internal.SessionImpl.getActionQueue(SessionImpl.java:2242)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.flushEntities(AbstractFlushingEventListener.java:237)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.flushEverythingToExecutions(AbstractFlushingEventListener.java:92)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1352)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1339)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:366)
+	at com.sun.proxy.$Proxy83.flush(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314)
+	at com.sun.proxy.$Proxy83.flush(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.flush(SimpleJpaRepository.java:601)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.saveAndFlush(SimpleJpaRepository.java:570)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:371)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:204)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:657)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:621)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:605)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy92.saveAndFlush(Unknown Source)
+	at com.uinv.inter.intergration.service.InterService.removeImage(InterService.java:106)
+	at com.uinv.inter.intergration.controller.Controller.removeImage(Controller.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-05-06 15:58:43 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-2 - Starting...
+2020-05-06 15:58:43 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-2 - Start completed.
+2020-05-06 15:58:47 [ INFO ]-[org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] HV000001: Hibernate Validator 6.0.18.Final
+2020-05-06 15:58:47 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)] Starting IntergrationApplication on Felix-Matebook with PID 10012 (D:\personProject\intergrationPlat\IntergrationPlat\target\classes started by felix in D:\personProject\intergrationPlat\IntergrationPlat)
+2020-05-06 15:58:47 [ INFO ]-[org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651)] No active profile set, falling back to default profiles: default
+2020-05-06 15:58:48 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-06 15:58:48 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)] Finished Spring Data repository scanning in 54ms. Found 3 JPA repository interfaces.
+2020-05-06 15:58:49 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)] Tomcat initialized with port(s): 9090 (http)
+2020-05-06 15:58:49 [ INFO ]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)] Root WebApplicationContext: initialization completed in 1175 ms
+2020-05-06 15:58:49 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+2020-05-06 15:58:49 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+2020-05-06 15:58:50 [ INFO ]-[org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-06 15:58:50 [ INFO ]-[org.hibernate.Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-06 15:58:50 [ INFO ]-[org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49)] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-06 15:58:50 [ INFO ]-[org.hibernate.dialect.Dialect.<init>(Dialect.java:172)] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-06 15:58:50 [ INFO ]-[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-06 15:58:50 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-06 15:58:51 [ WARN ]-[org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:220)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-06 15:58:51 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181)] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-06 15:58:51 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] Tomcat started on port(s): 9090 (http) with context path ''
+2020-05-06 15:58:51 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)] Started IntergrationApplication in 3.901 seconds (JVM running for 4.879)
+2020-05-06 15:58:51 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)] Initializing Servlet 'dispatcherServlet'
+2020-05-06 15:58:51 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)] Completed initialization in 5 ms
+2020-05-06 15:59:16 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218)] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-06 15:59:16 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:598)] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-06 15:59:16 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350)] HikariPool-1 - Shutdown initiated...
+2020-05-06 15:59:16 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352)] HikariPool-1 - Shutdown completed.
+2020-05-06 15:59:19 [ INFO ]-[org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] HV000001: Hibernate Validator 6.0.18.Final
+2020-05-06 15:59:20 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)] Starting IntergrationApplication on Felix-Matebook with PID 10904 (D:\personProject\intergrationPlat\IntergrationPlat\target\classes started by felix in D:\personProject\intergrationPlat\IntergrationPlat)
+2020-05-06 15:59:20 [ INFO ]-[org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651)] No active profile set, falling back to default profiles: default
+2020-05-06 15:59:20 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-06 15:59:20 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)] Finished Spring Data repository scanning in 47ms. Found 3 JPA repository interfaces.
+2020-05-06 15:59:21 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)] Tomcat initialized with port(s): 9090 (http)
+2020-05-06 15:59:21 [ INFO ]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)] Root WebApplicationContext: initialization completed in 957 ms
+2020-05-06 15:59:21 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+2020-05-06 15:59:21 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+2020-05-06 15:59:21 [ INFO ]-[org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-06 15:59:21 [ INFO ]-[org.hibernate.Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-06 15:59:21 [ INFO ]-[org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49)] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-06 15:59:22 [ INFO ]-[org.hibernate.dialect.Dialect.<init>(Dialect.java:172)] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-06 15:59:22 [ INFO ]-[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-06 15:59:22 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-06 15:59:22 [ WARN ]-[org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:220)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-06 15:59:22 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181)] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-06 15:59:23 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] Tomcat started on port(s): 9090 (http) with context path ''
+2020-05-06 15:59:23 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)] Started IntergrationApplication in 3.365 seconds (JVM running for 4.323)
+2020-05-06 15:59:26 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)] Initializing Servlet 'dispatcherServlet'
+2020-05-06 15:59:26 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)] Completed initialization in 7 ms
+2020-05-06 16:01:16 [ WARN ]-[com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:779)] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m54s875ms113µs700ns).
+2020-05-06 16:03:13 [ WARN ]-[com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:779)] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s94ms420µs400ns).
+2020-05-06 16:04:27 [ WARN ]-[com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:779)] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s553ms814µs).
+2020-05-06 16:06:03 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218)] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-06 16:06:03 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:598)] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-06 16:06:03 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350)] HikariPool-1 - Shutdown initiated...
+2020-05-06 16:06:03 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352)] HikariPool-1 - Shutdown completed.
+2020-05-07 17:20:10 [ INFO ]-[org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] HV000001: Hibernate Validator 6.0.18.Final
+2020-05-07 17:20:10 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)] Starting IntergrationApplication on Felix-Matebook with PID 11488 (D:\personProject\intergrationPlat\IntergrationPlat\target\classes started by felix in D:\personProject\intergrationPlat\IntergrationPlat)
+2020-05-07 17:20:10 [ INFO ]-[org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651)] No active profile set, falling back to default profiles: default
+2020-05-07 17:20:11 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-07 17:20:11 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)] Finished Spring Data repository scanning in 81ms. Found 3 JPA repository interfaces.
+2020-05-07 17:20:12 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)] Tomcat initialized with port(s): 9090 (http)
+2020-05-07 17:20:12 [ INFO ]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)] Root WebApplicationContext: initialization completed in 1335 ms
+2020-05-07 17:20:12 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+2020-05-07 17:20:13 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+2020-05-07 17:20:13 [ INFO ]-[org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-07 17:20:13 [ INFO ]-[org.hibernate.Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-07 17:20:13 [ INFO ]-[org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49)] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-07 17:20:13 [ INFO ]-[org.hibernate.dialect.Dialect.<init>(Dialect.java:172)] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-07 17:20:14 [ INFO ]-[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-07 17:20:14 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-07 17:20:14 [ WARN ]-[org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:220)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-07 17:20:15 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181)] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-07 17:20:15 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] Tomcat started on port(s): 9090 (http) with context path ''
+2020-05-07 17:20:15 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)] Started IntergrationApplication in 4.642 seconds (JVM running for 5.877)
+2020-05-07 17:21:01 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)] Initializing Servlet 'dispatcherServlet'
+2020-05-07 17:21:01 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)] Completed initialization in 9 ms
+2020-05-07 17:21:01 [ INFO ]-[com.uinv.inter.intergration.controller.Controller.queryDoc(Controller.java:102)] query tags >>>, []
+2020-05-07 17:21:42 [ INFO ]-[com.uinv.inter.intergration.service.InterService.uploadTextFile(InterService.java:84)] upload text file >>>, D:/15888432742752r9kn4hsvwo1588843302911.txt
+2020-05-07 17:25:54 [ INFO ]-[org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] HV000001: Hibernate Validator 6.0.18.Final
+2020-05-07 17:25:55 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)] Starting IntergrationApplication on Felix-Matebook with PID 12956 (D:\personProject\intergrationPlat\IntergrationPlat\target\classes started by felix in D:\personProject\intergrationPlat\IntergrationPlat)
+2020-05-07 17:25:55 [ INFO ]-[org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651)] No active profile set, falling back to default profiles: default
+2020-05-07 17:25:55 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-07 17:25:55 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)] Finished Spring Data repository scanning in 51ms. Found 3 JPA repository interfaces.
+2020-05-07 17:25:56 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)] Tomcat initialized with port(s): 9090 (http)
+2020-05-07 17:25:56 [ INFO ]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)] Root WebApplicationContext: initialization completed in 1069 ms
+2020-05-07 17:25:56 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+2020-05-07 17:25:57 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+2020-05-07 17:25:57 [ INFO ]-[org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-07 17:25:57 [ INFO ]-[org.hibernate.Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-07 17:25:57 [ INFO ]-[org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49)] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-07 17:25:57 [ INFO ]-[org.hibernate.dialect.Dialect.<init>(Dialect.java:172)] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-07 17:25:57 [ INFO ]-[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-07 17:25:57 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-07 17:25:57 [ WARN ]-[org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:220)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-07 17:25:58 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181)] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-07 17:25:58 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] Tomcat started on port(s): 9090 (http) with context path ''
+2020-05-07 17:25:58 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)] Started IntergrationApplication in 3.315 seconds (JVM running for 4.043)
+2020-05-07 17:26:02 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)] Initializing Servlet 'dispatcherServlet'
+2020-05-07 17:26:02 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)] Completed initialization in 4 ms
+2020-05-07 17:26:03 [ INFO ]-[com.uinv.inter.intergration.service.InterService.uploadTextFile(InterService.java:84)] upload text file >>>, D:/15888432742752r9kn4hsvwo1588843562900.txt
+2020-05-07 17:28:50 [ INFO ]-[org.hibernate.validator.internal.util.Version.<clinit>(Version.java:21)] HV000001: Hibernate Validator 6.0.18.Final
+2020-05-07 17:28:50 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)] Starting IntergrationApplication on Felix-Matebook with PID 19420 (D:\personProject\intergrationPlat\IntergrationPlat\target\classes started by felix in D:\personProject\intergrationPlat\IntergrationPlat)
+2020-05-07 17:28:50 [ INFO ]-[org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651)] No active profile set, falling back to default profiles: default
+2020-05-07 17:28:51 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-07 17:28:52 [ INFO ]-[org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)] Finished Spring Data repository scanning in 126ms. Found 3 JPA repository interfaces.
+2020-05-07 17:28:52 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)] Tomcat initialized with port(s): 9090 (http)
+2020-05-07 17:28:52 [ INFO ]-[org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)] Root WebApplicationContext: initialization completed in 1945 ms
+2020-05-07 17:28:52 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110)] HikariPool-1 - Starting...
+2020-05-07 17:28:54 [ INFO ]-[com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123)] HikariPool-1 - Start completed.
+2020-05-07 17:28:54 [ INFO ]-[org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation(LogHelper.java:31)] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-07 17:28:54 [ INFO ]-[org.hibernate.Version.logVersion(Version.java:44)] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-07 17:28:54 [ INFO ]-[org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(JavaReflectionManager.java:49)] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-07 17:28:54 [ INFO ]-[org.hibernate.dialect.Dialect.<init>(Dialect.java:172)] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-05-07 17:28:55 [ INFO ]-[org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService(JtaPlatformInitiator.java:52)] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-07 17:28:55 [ INFO ]-[org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:416)] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-07 17:28:56 [ WARN ]-[org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor(JpaBaseConfiguration.java:220)] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-05-07 17:28:56 [ INFO ]-[org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181)] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-07 17:28:57 [ INFO ]-[org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)] Tomcat started on port(s): 9090 (http) with context path ''
+2020-05-07 17:28:57 [ INFO ]-[org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)] Started IntergrationApplication in 6.964 seconds (JVM running for 8.014)
+2020-05-07 17:28:57 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)] Initializing Servlet 'dispatcherServlet'
+2020-05-07 17:28:57 [ INFO ]-[org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)] Completed initialization in 13 ms
+2020-05-07 17:28:57 [ INFO ]-[com.uinv.inter.intergration.service.InterService.uploadTextFile(InterService.java:82)] upload text file >>>, D:/15888432742752r9kn4hsvwo1588843736773.txt
